@@ -1,0 +1,9 @@
+## 2. Use case analysis
+
+### 2.1 Use case diagram
+
+아래의 그림은 K-Living Solution 시스템의 Use Case Diagram을 나타낸 것이다. Conceptualization Document에서 정의한 Use Case List를 바탕으로 Actor와 Use Case 사이의 관계를 도출하였다.
+
+본 시스템의 Actor는 일반 사용자(User)와 관리자(Administrator)로 구분하였다. User는 회원가입, 로그인, 프로필 라벨 확인, 질문 등록 및 보상 포인트 예치, 답변 채택, 포인트 정산 결과 확인 기능을 사용할 수 있다. Administrator는 로그인 후 시스템 통계 확인과 데이터 제어 기능을 사용할 수 있다.
+
+Data Load, Data Save, Data Update는 사용자가 직접 실행하는 기능이라기보다는 회원가입, 로그인, 질문 등록, 답변 채택, 통계 확인, 데이터 제어 과정에서 내부적으로 수행되는 기능이므로 include 관계로 표현하였다. 또한 질문 등록 기능은 보상 포인트 예치와 게시글 생성을 포함하고, 답변 채택 기능은 포인트 정산과 거래 결과 출력을 포함하도록 구성하였다.
