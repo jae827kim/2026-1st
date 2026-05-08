@@ -2,7 +2,7 @@
 
 아래의 그림은 K-Living Solution 시스템의 Domain Analysis에서 사용되는 주요 클래스들의 관계를 간단하게 나타낸 것이다.
 
-[그림 3-1] Domain class diagram
+![클래스 다이어그램](class.png)
 
 본 Domain Analysis는 시스템의 실제 구현 구조보다는 K-Living Solution을 구성하는 핵심 개념 클래스와 이들 사이의 관계를 나타내는 데 중점을 두었다. 본 시스템은 실제 DB 서버를 사용하지 않고 Java File I/O를 통해 `User.txt`, `Post.txt` 파일에 데이터를 저장하므로, 파일 입출력과 데이터 동기화를 담당하는 클래스를 별도로 도출하였다.
 
